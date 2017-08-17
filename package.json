@@ -1,0 +1,19 @@
+{
+  "name": "machinelearning",
+  "version": "1.0.0",
+  "description": "A preliminary self-tutorial on machine learning using javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungkwonkudo/machinelearning.git"
+  },
+  "author": "Sungkwon Kudo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sungkwonkudo/machinelearning/issues"
+  },
+  "homepage": "https://github.com/sungkwonkudo/machinelearning#readme"
+}
