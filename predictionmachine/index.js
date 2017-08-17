@@ -17,3 +17,13 @@ let trainingSetX = [],
     testSetX = [], 
     testSetY = [];
     
+csv()
+    .fromFile(csvFilePath)
+    .on('json'. (jsonObj)=>{
+        data.push(jsonObj);
+    })
+    .on('done',(error)=>{
+        separationSize = 0.7 * data.length;
+        data = shuffleArray(data);
+        dresssData();
+    });
