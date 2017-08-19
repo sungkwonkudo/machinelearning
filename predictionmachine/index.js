@@ -1,3 +1,5 @@
+//https://hackernoon.com/machine-learning-with-javascript-part-2-da994c17d483
+
 const KNN = require('ml-knn');
 const csv =  require('csvtojson');
 const prompt = require('prompt');
@@ -19,7 +21,7 @@ let trainingSetX = [],
     
 csv()
     .fromFile(csvFilePath)
-    .on('json'. (jsonObj)=>{
+    .on('json', (jsonObj)=>{
         data.push(jsonObj);
     })
     .on('done',(error)=>{
@@ -27,3 +29,4 @@ csv()
         data = shuffleArray(data);
         dresssData();
     });
+

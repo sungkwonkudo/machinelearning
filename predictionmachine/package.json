@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sungkwon Kudo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^1.1.7",
+    "ml-knn": "^2.1.0",
+    "prompt": "^1.0.0"
+  }
 }
